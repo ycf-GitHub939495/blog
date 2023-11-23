@@ -1,5 +1,11 @@
 <template>
   <div>
-    <NuxtWelcome />
+    <NuxtPage id="root"/>
   </div>
 </template>
+
+<style scoped>
+#root {
+  display: flex;
+}
+</style>
